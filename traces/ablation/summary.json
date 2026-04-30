@@ -1,0 +1,72 @@
+{
+  "topology": [
+    {
+      "label": "Condensed MAS (3 agents)",
+      "sr": 0.65,
+      "avg_tokens": 7400,
+      "note": "Loss of atomicity"
+    },
+    {
+      "label": "\\textbf{\\textsc{Doc2Test} (8 agents)}",
+      "sr": 1.0,
+      "avg_tokens": 18900,
+      "note": "\\textbf{Baseline}"
+    },
+    {
+      "label": "Fragmented MAS (12 agents)",
+      "sr": 0.85,
+      "avg_tokens": 29600,
+      "note": "JSON schema drift"
+    }
+  ],
+  "leave_one_out": [
+    {
+      "label": "$-$ Extractor Agent",
+      "sr": 0.7,
+      "avg_tokens": 16900,
+      "note": "No data extraction"
+    },
+    {
+      "label": "$-$ Atomicity Enforcer",
+      "sr": 0.8,
+      "avg_tokens": 17100,
+      "note": "Compound steps"
+    },
+    {
+      "label": "$-$ Logic Simplifier",
+      "sr": 0.85,
+      "avg_tokens": 17600,
+      "note": "Ambiguous branches"
+    },
+    {
+      "label": "$-$ Context Enricher",
+      "sr": 0.9,
+      "avg_tokens": 17800,
+      "note": "Missing domain knowledge"
+    },
+    {
+      "label": "$-$ Other Phase~1 agents (avg)",
+      "sr": 0.9,
+      "avg_tokens": 17500,
+      "note": "Formatting/ordering"
+    },
+    {
+      "label": "$-$ DOM Filter (full DOM to LLM)",
+      "sr": 0.6,
+      "avg_tokens": 115000,
+      "note": "Context-window saturation"
+    },
+    {
+      "label": "$-$ Screenshot (DOM only)",
+      "sr": 0.75,
+      "avg_tokens": 14200,
+      "note": "No visual grounding"
+    },
+    {
+      "label": "$-$ Error Handler (no repair)",
+      "sr": 0.85,
+      "avg_tokens": 16100,
+      "note": "No self-healing"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase1.ActionConcretizer",
+  "type": "object",
+  "required": ["tasks"],
+  "properties": {
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "concrete_steps"],
+        "properties": {
+          "id": {"type": "integer"},
+          "title": {"type": "string"},
+          "concrete_steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["action", "target"],
+              "properties": {
+                "action": {"enum": ["click", "type", "select", "wait", "scroll", "verify", "drag", "submit"]},
+                "target": {"type": "string"},
+                "value": {"type": "string"},
+                "rationale": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

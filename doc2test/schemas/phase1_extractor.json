@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase1.Extractor",
+  "type": "object",
+  "required": ["document_name", "data_points", "functional_requirements"],
+  "properties": {
+    "document_name": {"type": "string"},
+    "data_points": {
+      "type": "object",
+      "required": ["credentials", "inputs", "urls"],
+      "properties": {
+        "credentials": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label"],
+            "properties": {
+              "label": {"type": "string"},
+              "username": {"type": "string"},
+              "password": {"type": "string"}
+            }
+          }
+        },
+        "inputs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "value"],
+            "properties": {
+              "label": {"type": "string"},
+              "value": {"type": "string"}
+            }
+          }
+        },
+        "urls": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "functional_requirements": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    }
+  }
+}

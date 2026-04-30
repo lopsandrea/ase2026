@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><title><%= title || "PRATICA-DAI" %></title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0}
+header{padding:1rem 1.5rem;border-bottom:1px solid #ddd;display:flex;gap:1rem;align-items:center}
+header a{text-decoration:none;color:#111}
+main{padding:1.5rem;max-width:880px;margin:0 auto}
+form{display:grid;gap:.5rem;max-width:400px}
+input,button{padding:.5rem .75rem;font:inherit}
+.product{padding:.75rem 0;border-bottom:1px solid #eee;display:flex;gap:1rem;align-items:center}
+.product .price{font-weight:700}
+table{width:100%;border-collapse:collapse}
+th,td{padding:.5rem;border-bottom:1px solid #eee;text-align:left}
+.error{color:#c00}
+</style>
+</head>
+<body>
+<header data-test-id="header">
+  <a href="/" id="brand"><strong>PRATICA-DAI</strong></a>
+  <a href="/products" id="nav-products">Products</a>
+  <a href="/cart" id="nav-cart">Cart</a>
+  <a href="/orders" id="nav-orders">Orders</a>
+  <a href="/account" id="nav-account">Account</a>
+  <% if (locals.user) { %>
+    <form method="post" action="/logout" style="display:inline"><button id="logout-btn">Logout (<%= user.email %>)</button></form>
+  <% } else { %>
+    <a href="/login" id="nav-login">Login</a>
+    <a href="/register" id="nav-register">Register</a>
+  <% } %>
+</header>
+<main><%- body %></main>
+</body>
+</html>

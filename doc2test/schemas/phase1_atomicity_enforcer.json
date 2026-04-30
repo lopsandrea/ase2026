@@ -1,0 +1,5 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase1.AtomicityEnforcer",
+  "$ref": "phase1_action_concretizer.json#"
+}

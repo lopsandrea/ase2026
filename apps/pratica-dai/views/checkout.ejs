@@ -1,0 +1,11 @@
+<% const body = `
+<h1 data-test-id="checkout-title">Checkout</h1>
+<form method="post" action="/checkout" aria-label="checkout-form">
+  <input id="full-name" name="name" placeholder="Full name" required />
+  <input id="address" name="address" placeholder="Shipping address" required />
+  <input id="city" name="city" placeholder="City" required />
+  <input id="zip" name="zip" placeholder="ZIP" required />
+  <input id="country" name="country" placeholder="Country" required />
+  <button type="submit" id="confirm-order">Confirm order</button>
+</form>
+`; %><%- include("_layout", { body, user: locals.user, title: "Checkout" }) %>

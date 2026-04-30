@@ -1,0 +1,239 @@
+{
+  "subject": "CodeBites",
+  "scenario": "Create Recipe",
+  "industrial": false,
+  "per_operator": {
+    "AM": [
+      8,
+      8
+    ],
+    "ER": [
+      8,
+      8
+    ],
+    "SLI": [
+      7,
+      7
+    ],
+    "EHD": [
+      7,
+      7
+    ]
+  },
+  "totals": [
+    30,
+    30
+  ],
+  "mutants": [
+    {
+      "id": "mutant-codebites-AM-000",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-AM-001",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-AM-002",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-AM-003",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-AM-004",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-AM-005",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-AM-006",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-AM-007",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-ER-000",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-ER-001",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-ER-002",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-ER-003",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-ER-004",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-ER-005",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-ER-006",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-ER-007",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-SLI-000",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-SLI-001",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-SLI-002",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-SLI-003",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-SLI-004",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-SLI-005",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-SLI-006",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-EHD-000",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-EHD-001",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-EHD-002",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-EHD-003",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-EHD-004",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-EHD-005",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-codebites-EHD-006",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    }
+  ]
+}

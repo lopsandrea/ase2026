@@ -1,0 +1,7 @@
+<%
+let body = `<h1>Orders</h1><ul data-test-id="orders-list">`;
+Object.keys(orders).forEach(k => {
+  body += `<li><a href="/orders/${k}">${k}</a> — ${orders[k].status}</li>`;
+});
+body += `</ul>`;
+%><%- include("_layout", { body, user: locals.user, title: "Orders" }) %>

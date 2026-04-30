@@ -1,0 +1,103 @@
+{
+  "framework": "doc2test",
+  "version": "1.0.0",
+  "scenario_key": "industrial_sc4_edge",
+  "application": "Industrial (Angular)",
+  "scenario": "Sc.4 (Edge Case)",
+  "run_index": 2,
+  "status": "PASS",
+  "task_count": 12,
+  "total_retries": 10,
+  "total_tokens": 16437,
+  "input_tokens": 12820,
+  "output_tokens": 3616,
+  "elapsed_seconds": 631.3,
+  "per_task_metrics": [
+    {
+      "task_index": 0,
+      "task_id": "task-0",
+      "attempts": 2,
+      "status": "PASS",
+      "exception_type": "ElementClickInterceptedException"
+    },
+    {
+      "task_index": 1,
+      "task_id": "task-1",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 2,
+      "task_id": "task-2",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 3,
+      "task_id": "task-3",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 4,
+      "task_id": "task-4",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 5,
+      "task_id": "task-5",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 6,
+      "task_id": "task-6",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 7,
+      "task_id": "task-7",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 8,
+      "task_id": "task-8",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 9,
+      "task_id": "task-9",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 10,
+      "task_id": "task-10",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 11,
+      "task_id": "task-11",
+      "attempts": 2,
+      "status": "PASS",
+      "exception_type": "ElementClickInterceptedException"
+    }
+  ],
+  "redacted": true,
+  "notes": ""
+}

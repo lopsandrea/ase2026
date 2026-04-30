@@ -1,0 +1,239 @@
+{
+  "subject": "Taboo",
+  "scenario": "Start Game",
+  "industrial": false,
+  "per_operator": {
+    "AM": [
+      7,
+      7
+    ],
+    "ER": [
+      8,
+      8
+    ],
+    "SLI": [
+      7,
+      7
+    ],
+    "EHD": [
+      7,
+      8
+    ]
+  },
+  "totals": [
+    29,
+    30
+  ],
+  "mutants": [
+    {
+      "id": "mutant-taboo-AM-000",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-AM-001",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-AM-002",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-AM-003",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-AM-004",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-AM-005",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-AM-006",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-ER-000",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-ER-001",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-ER-002",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-ER-003",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-ER-004",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-ER-005",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-ER-006",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-ER-007",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-SLI-000",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-SLI-001",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-SLI-002",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-SLI-003",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-SLI-004",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-SLI-005",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-SLI-006",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-EHD-000",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-EHD-001",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-EHD-002",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-EHD-003",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-EHD-004",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-EHD-005",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-EHD-006",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-taboo-EHD-007",
+      "operator": "EHD",
+      "detected": false,
+      "exception_type": null,
+      "miss_reason": "Missed mutant: WebSocket race condition masked by Selenium implicit wait (paper §4.4)."
+    }
+  ]
+}

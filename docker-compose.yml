@@ -1,0 +1,50 @@
+version: "3.9"
+
+# Doc2Test orchestration: framework + Selenium grid + 4 OSS subjects + RealWorld.
+# The industrial app is NDA-bound and not part of this compose file (cf. paper §4.1).
+
+services:
+  doc2test:
+    build: .
+    image: doc2test:1.0
+    env_file: .env
+    volumes:
+      - ./traces:/app/traces
+      - ./uats:/app/uats:ro
+      - ~/.doc2test/cache:/cache
+    depends_on:
+      - selenium-hub
+      - codebites
+      - pratica-dai
+      - rocooky
+      - taboo
+
+  selenium-hub:
+    image: selenium/hub:4.21
+    ports: ["4442:4442", "4443:4443", "4444:4444"]
+
+  chrome:
+    image: selenium/node-chrome:4.21
+    shm_size: 2gb
+    depends_on: [selenium-hub]
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=4
+
+  codebites:
+    build: ./apps/codebites
+    ports: ["3001:3000"]
+
+  pratica-dai:
+    build: ./apps/pratica-dai
+    ports: ["3002:3000"]
+
+  rocooky:
+    build: ./apps/rocooky
+    ports: ["3003:3000"]
+
+  taboo:
+    build: ./apps/taboo
+    ports: ["3004:3000"]

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><title>Taboo</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0;background:#fafafa}
+main{max-width:520px;margin:2rem auto;padding:1.5rem;background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+input,button{padding:.5rem .75rem;font:inherit;margin:.25rem .5rem .25rem 0}
+.card{padding:1rem;background:#fff8e1;border-left:4px solid #ffb300;margin:1rem 0;border-radius:4px}
+.taboo{color:#c62828;text-decoration:line-through}
+#log{background:#f0f0f0;padding:.5rem;border-radius:4px;font-size:12px;height:140px;overflow:auto;font-family:monospace}
+</style>
+</head>
+<body>
+<main>
+  <h1 data-test-id="title">Taboo</h1>
+
+  <section id="join-section" data-test-id="join-section">
+    <h2>Join a room</h2>
+    <form id="join-form" onsubmit="event.preventDefault();join();">
+      <input id="player-name" placeholder="Your name" required />
+      <input id="room-id" placeholder="Room id" required value="LOBBY-1" />
+      <button id="join-btn" type="submit">Join</button>
+    </form>
+  </section>
+
+  <section id="game-section" hidden data-test-id="game-section">
+    <p>Active player: <strong id="active-player" data-test-id="active-player">—</strong></p>
+    <p>Score: <span id="score" data-test-id="score">0</span></p>
+    <p>Time left: <span id="timer" data-test-id="timer">—</span> s</p>
+    <div id="card" class="card" data-test-id="card" hidden>
+      <p>Word: <strong id="card-word" data-test-id="card-word"></strong></p>
+      <p>Taboo: <span id="card-taboo" data-test-id="card-taboo"></span></p>
+    </div>
+    <form id="guess-form" onsubmit="event.preventDefault();sendGuess();">
+      <input id="guess-input" data-test-id="guess-input" placeholder="Your guess" />
+      <button id="guess-btn" type="submit" data-test-id="guess-btn">Guess</button>
+      <button id="skip-btn" type="button" data-test-id="skip-btn" onclick="sendSkip()">Skip</button>
+    </form>
+    <p id="feedback" data-test-id="feedback" aria-live="polite"></p>
+    <pre id="log" data-test-id="log"></pre>
+  </section>
+</main>
+
+<script>
+let ws, me, deadlineAt, timerHandle;
+
+function log(line) {
+  const el = document.getElementById("log");
+  el.textContent += line + "\n";
+  el.scrollTop = el.scrollHeight;
+}
+
+function join() {
+  me = document.getElementById("player-name").value;
+  const roomId = document.getElementById("room-id").value;
+  ws = new WebSocket(`ws://${location.host}/ws`);
+  ws.addEventListener("open", () => ws.send(JSON.stringify({ type: "join", player: me, roomId })));
+  ws.addEventListener("message", (m) => handle(JSON.parse(m.data)));
+  document.getElementById("join-section").hidden = true;
+  document.getElementById("game-section").hidden = false;
+}
+
+function sendGuess() {
+  const g = document.getElementById("guess-input").value;
+  ws.send(JSON.stringify({ type: "guess", guess: g }));
+  document.getElementById("guess-input").value = "";
+}
+
+function sendSkip() {
+  ws.send(JSON.stringify({ type: "skip" }));
+}
+
+function handle(m) {
+  log(JSON.stringify(m));
+  if (m.type === "lobby") {
+    document.getElementById("feedback").textContent = "Players: " + m.players.join(", ");
+  }
+  if (m.type === "turn") {
+    document.getElementById("active-player").textContent = m.active;
+    document.getElementById("score").textContent = m.score;
+    deadlineAt = m.deadline;
+    if (m.active === me) {
+      document.getElementById("card").hidden = false;
+      document.getElementById("card-word").textContent = m.card.word;
+      document.getElementById("card-taboo").innerHTML = m.card.taboo.map(t => `<span class="taboo">${t}</span>`).join(" ");
+    } else {
+      document.getElementById("card").hidden = true;
+    }
+    clearInterval(timerHandle);
+    timerHandle = setInterval(updateTimer, 1000);
+    updateTimer();
+  }
+  if (m.type === "correct") {
+    document.getElementById("feedback").textContent = `Correct by ${m.by}! Score: ${m.score}`;
+  }
+  if (m.type === "wrong") {
+    document.getElementById("feedback").textContent = `Wrong (${m.guess})`;
+  }
+}
+
+function updateTimer() {
+  const remaining = Math.max(0, Math.floor((deadlineAt - Date.now()) / 1000));
+  document.getElementById("timer").textContent = remaining;
+}
+</script>
+</body>
+</html>

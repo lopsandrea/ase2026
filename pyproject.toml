@@ -1,0 +1,57 @@
+[project]
+name = "doc2test"
+version = "1.0.0"
+description = "An Industrial Multi-Agent Framework for Document-Driven End-to-End Selenium Test Generation"
+authors = [
+    { name = "Andrea Lops", email = "andrea.lops@poliba.it" },
+    { name = "Antonio Ferrara", email = "antonio.ferrara@poliba.it" },
+    { name = "Fedelucio Narducci", email = "fedelucio.narducci@poliba.it" },
+    { name = "Azzurra Ragone", email = "azzurra.ragone@uniba.it" },
+    { name = "Michelantonio Trizio", email = "michelantonio.trizio@wideverse.com" },
+]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "selenium>=4.20.0",
+    "openai>=1.30.0",
+    "google-generativeai>=0.7.0",
+    "pydantic>=2.7.0",
+    "jinja2>=3.1.4",
+    "pypdf>=4.2.0",
+    "python-docx>=1.1.0",
+    "python-pptx>=0.6.23",
+    "pillow>=10.3.0",
+    "tiktoken>=0.7.0",
+    "fastapi>=0.111.0",
+    "uvicorn>=0.30.0",
+    "websockets>=12.0",
+    "tenacity>=8.3.0",
+    "click>=8.1.7",
+    "rich>=13.7.0",
+    "scipy>=1.13.0",
+    "numpy>=1.26.0",
+    "junitparser>=3.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2.0",
+    "pytest-cov>=5.0.0",
+    "ruff>=0.4.0",
+    "mypy>=1.10.0",
+]
+
+[project.scripts]
+doc2test = "doc2test.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["doc2test*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

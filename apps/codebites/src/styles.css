@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; }
+.layout header { padding: 1rem 1.5rem; border-bottom: 1px solid #ddd; display: flex; gap: 1rem; align-items: center; }
+.layout header .brand { font-weight: 700; margin-right: auto; text-decoration: none; color: #111; }
+.layout header nav { display: flex; gap: 1rem; }
+.layout main { padding: 1.5rem; max-width: 720px; margin: 0 auto; }
+form { display: grid; gap: .75rem; }
+input, textarea { padding: .5rem .75rem; font: inherit; }
+button { padding: .5rem 1rem; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+ul li { padding: .5rem 0; border-bottom: 1px solid #eee; display: flex; gap: 1rem; align-items: center; }
+ul li a { flex: 1; }
+#recipe-dropzone { padding: 2rem; border: 2px dashed #aaa; text-align: center; }
+#recipe-dropzone.active { background: #eef; }

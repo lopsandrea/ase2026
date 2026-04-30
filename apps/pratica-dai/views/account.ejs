@@ -1,0 +1,4 @@
+<% const body = `
+<h1 data-test-id="account-title">Account</h1>
+<p>Email: <span data-test-id="account-email">${user.email}</span></p>
+`; %><%- include("_layout", { body, user, title: "Account" }) %>

@@ -1,0 +1,9 @@
+{
+  "name": "taboo",
+  "version": "1.0.0",
+  "description": "Real-time WebSocket board game — Doc2Test OSS evaluation subject",
+  "license": "Apache-2.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2", "ws": "^8.17.0" }
+}

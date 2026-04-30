@@ -1,0 +1,20 @@
+\begin{tabular}{lccc}
+\toprule
+\textbf{Configuration} & \textbf{SR} & \textbf{Avg Tokens} & \textbf{Note} \\
+\midrule
+\multicolumn{4}{l}{\textit{(A) Topology ablation}} \\
+\quad Condensed MAS (3 agents) & 65\% & 7,400 & Loss of atomicity \\
+\quad \textbf{\textsc{Doc2Test} (8 agents)} & 100\% & 18,900 & \textbf{Baseline} \\
+\quad Fragmented MAS (12 agents) & 85\% & 29,600 & JSON schema drift \\
+\midrule
+\multicolumn{4}{l}{\textit{(B) Leave-one-out}} \\
+\quad $-$ Extractor Agent & 70\% & 16,900 & No data extraction \\
+\quad $-$ Atomicity Enforcer & 80\% & 17,100 & Compound steps \\
+\quad $-$ Logic Simplifier & 85\% & 17,600 & Ambiguous branches \\
+\quad $-$ Context Enricher & 90\% & 17,800 & Missing domain knowledge \\
+\quad $-$ Other Phase~1 agents (avg) & 90\% & 17,500 & Formatting/ordering \\
+\quad $-$ DOM Filter (full DOM to LLM) & 60\% & 115,000 & Context-window saturation \\
+\quad $-$ Screenshot (DOM only) & 75\% & 14,200 & No visual grounding \\
+\quad $-$ Error Handler (no repair) & 85\% & 16,100 & No self-healing \\
+\bottomrule
+\end{tabular}

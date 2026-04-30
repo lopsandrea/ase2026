@@ -1,0 +1,9 @@
+{
+  "name": "rocooky",
+  "version": "1.0.0",
+  "description": "Virtual cookbook with infinite scroll — Doc2Test OSS evaluation subject",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}

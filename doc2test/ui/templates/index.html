@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Doc2Test Dashboard</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; background:#0e1117; color:#e6edf3; }
+  header { padding: 1rem 1.5rem; border-bottom: 1px solid #30363d; display:flex; justify-content:space-between; align-items:center; }
+  h1 { margin:0; font-size: 1.1rem; }
+  main { display:grid; grid-template-columns: 1fr 1fr; gap: 0; height: calc(100vh - 4rem); }
+  section { padding: 1rem 1.5rem; overflow:auto; }
+  section + section { border-left: 1px solid #30363d; }
+  pre { background:#161b22; padding: .75rem; border-radius:6px; font-size:12px; }
+  .task { padding:.5rem .75rem; margin-bottom:.5rem; border-left:3px solid #30363d; background:#161b22; border-radius:4px; }
+  .task.PASS { border-left-color:#3fb950; }
+  .task.FAIL { border-left-color:#f85149; }
+  .task.PENDING { border-left-color:#d29922; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Doc2Test — Real-time Dashboard</h1>
+    <span id="status">connecting…</span>
+  </header>
+  <main>
+    <section>
+      <h2>Task list (Phase 1 output)</h2>
+      <div id="tasks"></div>
+    </section>
+    <section>
+      <h2>Execution stream</h2>
+      <pre id="log"></pre>
+    </section>
+  </main>
+  <script>
+    const ws = new WebSocket(`ws://${location.host}/ws`);
+    const status = document.getElementById("status");
+    const log = document.getElementById("log");
+    const tasks = document.getElementById("tasks");
+    ws.addEventListener("open", () => status.textContent = "live");
+    ws.addEventListener("close", () => status.textContent = "disconnected");
+    ws.addEventListener("message", (m) => {
+      const e = JSON.parse(m.data);
+      log.textContent += JSON.stringify(e) + "\n";
+      if (e.type === "tasks") {
+        tasks.innerHTML = e.tasks
+          .map(t => `<div class="task ${t.status||'PENDING'}"><strong>#${t.id}</strong> ${t.title||t.description||''}</div>`)
+          .join("");
+      }
+    });
+  </script>
+</body>
+</html>

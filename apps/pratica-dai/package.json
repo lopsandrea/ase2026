@@ -1,0 +1,14 @@
+{
+  "name": "pratica-dai",
+  "version": "1.0.0",
+  "description": "E-commerce checkout sandbox — Doc2Test OSS evaluation subject",
+  "license": "Apache-2.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "ejs": "^3.1.10",
+    "body-parser": "^1.20.2"
+  }
+}

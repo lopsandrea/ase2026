@@ -1,0 +1,15 @@
+## Atomic task
+
+{{ task | tojson(indent=2) }}
+
+## Full DOM (potentially long; prune aggressively)
+
+```html
+{{ dom }}
+```
+
+A screenshot of the same page state is attached as an image. Use it to
+disambiguate when the DOM alone is insufficient (e.g., to detect that a
+cookie banner currently overlays the target).
+
+Produce the filtered fragment now.

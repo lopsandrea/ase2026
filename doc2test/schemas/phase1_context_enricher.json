@@ -1,0 +1,5 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase1.ContextEnricher",
+  "$ref": "phase1_logic_simplifier.json#"
+}

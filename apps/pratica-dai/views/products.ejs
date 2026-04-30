@@ -1,0 +1,12 @@
+<%
+let body = `<h1 data-test-id="products-title">Products</h1>
+<div id="product-list">`;
+products.forEach(p => {
+  body += `<div class="product" data-product-id="${p.id}">
+    <span>${p.name}</span>
+    <span class="price">$${p.price.toFixed(2)}</span>
+    <a href="/products/${p.id}" data-test-id="view-${p.id}">View</a>
+  </div>`;
+});
+body += "</div>";
+%><%- include("_layout", { body, user: locals.user, title: "Products" }) %>

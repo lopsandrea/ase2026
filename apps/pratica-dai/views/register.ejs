@@ -1,0 +1,9 @@
+<% const body = `
+<h1>Register</h1>
+<form method="post" action="/register">
+  <input id="reg-name" name="name" placeholder="Full name" />
+  <input id="reg-email" name="email" type="email" placeholder="Email" required />
+  <input id="reg-password" name="password" type="password" placeholder="Password" required />
+  <button type="submit" id="register-submit">Create account</button>
+</form>
+`; %><%- include("_layout", { body, user: null, title: "Register" }) %>

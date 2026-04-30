@@ -1,0 +1,26 @@
+## Atomic task
+
+{{ task | tojson(indent=2) }}
+
+## Previous snippet (failed)
+
+```python
+{{ previous_code }}
+```
+
+## Runtime error log
+
+```json
+{{ error_log | tojson(indent=2) }}
+```
+
+## Fresh filtered DOM (post-failure)
+
+```html
+{{ filtered_dom }}
+```
+
+A fresh screenshot of the post-failure page state is attached as an image.
+
+Diagnose the root cause and emit a repaired snippet, or `give_up` if the
+required element is genuinely absent.

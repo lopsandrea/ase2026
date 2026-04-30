@@ -1,0 +1,68 @@
+{
+  "framework": "doc2test",
+  "version": "1.0.0",
+  "scenario_key": "taboo_game_flow",
+  "application": "Taboo (WebSocket)",
+  "scenario": "Game Flow",
+  "run_index": 4,
+  "status": "PASS",
+  "task_count": 7,
+  "total_retries": 14,
+  "total_tokens": 13413,
+  "input_tokens": 10462,
+  "output_tokens": 2950,
+  "elapsed_seconds": 300.7,
+  "per_task_metrics": [
+    {
+      "task_index": 0,
+      "task_id": "task-0",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 1,
+      "task_id": "task-1",
+      "attempts": 2,
+      "status": "PASS",
+      "exception_type": "NoSuchElementException"
+    },
+    {
+      "task_index": 2,
+      "task_id": "task-2",
+      "attempts": 1,
+      "status": "PASS",
+      "exception_type": "TimeoutException"
+    },
+    {
+      "task_index": 3,
+      "task_id": "task-3",
+      "attempts": 1,
+      "status": "PASS",
+      "exception_type": "TimeoutException"
+    },
+    {
+      "task_index": 4,
+      "task_id": "task-4",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 5,
+      "task_id": "task-5",
+      "attempts": 1,
+      "status": "PASS",
+      "exception_type": "TimeoutException"
+    },
+    {
+      "task_index": 6,
+      "task_id": "task-6",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    }
+  ],
+  "redacted": false,
+  "notes": "2 runs failed: WebSocket race conditions (paper §4.3)."
+}

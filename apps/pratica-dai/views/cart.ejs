@@ -1,0 +1,19 @@
+<%
+let body = `<h1 data-test-id="cart-title">Your cart</h1>`;
+if (!cart.length) {
+  body += `<p data-test-id="cart-empty">Your cart is empty.</p>`;
+} else {
+  body += `<table><thead><tr><th>Product</th><th>Qty</th><th>Subtotal</th><th></th></tr></thead><tbody>`;
+  cart.forEach(c => {
+    body += `<tr data-cart-row="${c.productId}">
+      <td>${c.product.name}</td>
+      <td>${c.quantity}</td>
+      <td>$${(c.product.price*c.quantity).toFixed(2)}</td>
+      <td><form method="post" action="/cart/remove" style="display:inline"><input type="hidden" name="productId" value="${c.productId}"/><button type="submit" data-test-id="remove-${c.productId}">Remove</button></form></td>
+    </tr>`;
+  });
+  body += `</tbody></table>
+  <p data-test-id="cart-total"><strong>Total: $${total.toFixed(2)}</strong></p>
+  <a href="/checkout" id="goto-checkout">Proceed to checkout</a>`;
+}
+%><%- include("_layout", { body, user: locals.user, title: "Cart" }) %>

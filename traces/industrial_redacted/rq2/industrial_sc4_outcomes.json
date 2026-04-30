@@ -1,0 +1,99 @@
+{
+  "subject": "Industrial",
+  "scenario": "Sc.4 (Waitlist)",
+  "industrial": true,
+  "per_operator": {
+    "AM": [
+      3,
+      3
+    ],
+    "ER": [
+      2,
+      2
+    ],
+    "SLI": [
+      2,
+      2
+    ],
+    "EHD": [
+      3,
+      3
+    ]
+  },
+  "totals": [
+    10,
+    10
+  ],
+  "mutants": [
+    {
+      "id": "mutant-industrial_sc4-AM-000",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-industrial_sc4-AM-001",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-industrial_sc4-AM-002",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-industrial_sc4-ER-000",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-industrial_sc4-ER-001",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-industrial_sc4-SLI-000",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-industrial_sc4-SLI-001",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-industrial_sc4-EHD-000",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-industrial_sc4-EHD-001",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-industrial_sc4-EHD-002",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    }
+  ]
+}

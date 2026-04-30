@@ -1,0 +1,542 @@
+[
+  {
+    "baseline": "sa_react",
+    "run_index": 0,
+    "status": "PASS",
+    "tokens": 94278
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 1,
+    "status": "PASS",
+    "tokens": 92272
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 2,
+    "status": "PASS",
+    "tokens": 93774
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 3,
+    "status": "PASS",
+    "tokens": 92623
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 4,
+    "status": "PASS",
+    "tokens": 95883
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 5,
+    "status": "PASS",
+    "tokens": 101406
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 6,
+    "status": "PASS",
+    "tokens": 96794
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 7,
+    "status": "PASS",
+    "tokens": 91909
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 8,
+    "status": "PASS",
+    "tokens": 96936
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 9,
+    "status": "PASS",
+    "tokens": 97233
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 10,
+    "status": "PASS",
+    "tokens": 89807
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 11,
+    "status": "PASS",
+    "tokens": 86346
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 12,
+    "status": "PASS",
+    "tokens": 97967
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 13,
+    "status": "PASS",
+    "tokens": 93837
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 14,
+    "status": "PASS",
+    "tokens": 84618
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 15,
+    "status": "PASS",
+    "tokens": 99085
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 16,
+    "status": "PASS",
+    "tokens": 94530
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 17,
+    "status": "PASS",
+    "tokens": 91234
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 18,
+    "status": "PASS",
+    "tokens": 94693
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 19,
+    "status": "PASS",
+    "tokens": 91935
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 20,
+    "status": "PASS",
+    "tokens": 94155
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 21,
+    "status": "PASS",
+    "tokens": 93545
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 22,
+    "status": "PASS",
+    "tokens": 97629
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 23,
+    "status": "PASS",
+    "tokens": 102000
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 24,
+    "status": "PASS",
+    "tokens": 96758
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 25,
+    "status": "PASS",
+    "tokens": 91811
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 26,
+    "status": "PASS",
+    "tokens": 99277
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 27,
+    "status": "PASS",
+    "tokens": 93613
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 28,
+    "status": "PASS",
+    "tokens": 91019
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 29,
+    "status": "PASS",
+    "tokens": 99587
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 30,
+    "status": "PASS",
+    "tokens": 87154
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 31,
+    "status": "PASS",
+    "tokens": 98470
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 32,
+    "status": "PASS",
+    "tokens": 90969
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 33,
+    "status": "PASS",
+    "tokens": 86083
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 34,
+    "status": "PASS",
+    "tokens": 85796
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 35,
+    "status": "PASS",
+    "tokens": 92121
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 36,
+    "status": "PASS",
+    "tokens": 96071
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 37,
+    "status": "PASS",
+    "tokens": 96353
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 38,
+    "status": "PASS",
+    "tokens": 96121
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 39,
+    "status": "PASS",
+    "tokens": 97340
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 40,
+    "status": "PASS",
+    "tokens": 88686
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 41,
+    "status": "PASS",
+    "tokens": 89168
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 42,
+    "status": "PASS",
+    "tokens": 92948
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 43,
+    "status": "PASS",
+    "tokens": 88030
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 44,
+    "status": "PASS",
+    "tokens": 94310
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 45,
+    "status": "PASS",
+    "tokens": 93622
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 46,
+    "status": "FAIL",
+    "tokens": 93444
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 47,
+    "status": "FAIL",
+    "tokens": 90321
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 48,
+    "status": "FAIL",
+    "tokens": 91162
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 49,
+    "status": "FAIL",
+    "tokens": 90632
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 50,
+    "status": "FAIL",
+    "tokens": 90040
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 51,
+    "status": "FAIL",
+    "tokens": 90623
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 52,
+    "status": "FAIL",
+    "tokens": 95467
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 53,
+    "status": "FAIL",
+    "tokens": 94643
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 54,
+    "status": "FAIL",
+    "tokens": 94617
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 55,
+    "status": "FAIL",
+    "tokens": 89287
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 56,
+    "status": "FAIL",
+    "tokens": 96536
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 57,
+    "status": "FAIL",
+    "tokens": 92717
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 58,
+    "status": "FAIL",
+    "tokens": 94206
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 59,
+    "status": "FAIL",
+    "tokens": 100094
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 60,
+    "status": "FAIL",
+    "tokens": 93713
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 61,
+    "status": "FAIL",
+    "tokens": 87136
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 62,
+    "status": "FAIL",
+    "tokens": 91898
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 63,
+    "status": "FAIL",
+    "tokens": 86072
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 64,
+    "status": "FAIL",
+    "tokens": 105282
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 65,
+    "status": "FAIL",
+    "tokens": 95396
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 66,
+    "status": "FAIL",
+    "tokens": 100357
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 67,
+    "status": "FAIL",
+    "tokens": 96355
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 68,
+    "status": "FAIL",
+    "tokens": 86199
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 69,
+    "status": "FAIL",
+    "tokens": 93136
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 70,
+    "status": "FAIL",
+    "tokens": 91965
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 71,
+    "status": "FAIL",
+    "tokens": 88006
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 72,
+    "status": "FAIL",
+    "tokens": 97689
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 73,
+    "status": "FAIL",
+    "tokens": 95601
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 74,
+    "status": "FAIL",
+    "tokens": 98008
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 75,
+    "status": "FAIL",
+    "tokens": 100360
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 76,
+    "status": "FAIL",
+    "tokens": 82981
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 77,
+    "status": "FAIL",
+    "tokens": 98467
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 78,
+    "status": "FAIL",
+    "tokens": 89602
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 79,
+    "status": "FAIL",
+    "tokens": 90010
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 80,
+    "status": "FAIL",
+    "tokens": 90061
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 81,
+    "status": "FAIL",
+    "tokens": 89802
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 82,
+    "status": "FAIL",
+    "tokens": 85104
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 83,
+    "status": "FAIL",
+    "tokens": 94438
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 84,
+    "status": "FAIL",
+    "tokens": 99603
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 85,
+    "status": "FAIL",
+    "tokens": 96151
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 86,
+    "status": "FAIL",
+    "tokens": 94961
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 87,
+    "status": "FAIL",
+    "tokens": 96497
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 88,
+    "status": "FAIL",
+    "tokens": 90046
+  },
+  {
+    "baseline": "sa_react",
+    "run_index": 89,
+    "status": "FAIL",
+    "tokens": 90452
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase3.ErrorHandler",
+  "type": "object",
+  "properties": {
+    "code": {"type": ["string", "null"]},
+    "diagnosis": {"type": "string"},
+    "repair_strategy": {"type": "string"},
+    "give_up": {"type": ["string", "null"]}
+  },
+  "anyOf": [
+    {"required": ["code"], "properties": {"code": {"type": "string"}}},
+    {"required": ["give_up"], "properties": {"give_up": {"type": "string"}}}
+  ]
+}

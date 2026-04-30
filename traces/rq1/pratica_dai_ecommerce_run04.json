@@ -1,0 +1,82 @@
+{
+  "framework": "doc2test",
+  "version": "1.0.0",
+  "scenario_key": "pratica_dai_ecommerce",
+  "application": "PRATICA-DAI (Node.js)",
+  "scenario": "e-Commerce",
+  "run_index": 4,
+  "status": "PASS",
+  "task_count": 9,
+  "total_retries": 5,
+  "total_tokens": 11871,
+  "input_tokens": 9259,
+  "output_tokens": 2611,
+  "elapsed_seconds": 265.7,
+  "per_task_metrics": [
+    {
+      "task_index": 0,
+      "task_id": "task-0",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 1,
+      "task_id": "task-1",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 2,
+      "task_id": "task-2",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 3,
+      "task_id": "task-3",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 4,
+      "task_id": "task-4",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 5,
+      "task_id": "task-5",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 6,
+      "task_id": "task-6",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 7,
+      "task_id": "task-7",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    },
+    {
+      "task_index": 8,
+      "task_id": "task-8",
+      "attempts": 0,
+      "status": "PASS",
+      "exception_type": null
+    }
+  ],
+  "redacted": false,
+  "notes": ""
+}

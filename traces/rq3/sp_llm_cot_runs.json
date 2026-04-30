@@ -1,0 +1,542 @@
+[
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 0,
+    "status": "PASS",
+    "tokens": 46119
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 1,
+    "status": "PASS",
+    "tokens": 47069
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 2,
+    "status": "PASS",
+    "tokens": 49429
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 3,
+    "status": "PASS",
+    "tokens": 50295
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 4,
+    "status": "PASS",
+    "tokens": 48174
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 5,
+    "status": "PASS",
+    "tokens": 52364
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 6,
+    "status": "PASS",
+    "tokens": 49320
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 7,
+    "status": "PASS",
+    "tokens": 49309
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 8,
+    "status": "PASS",
+    "tokens": 48161
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 9,
+    "status": "PASS",
+    "tokens": 50444
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 10,
+    "status": "PASS",
+    "tokens": 42034
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 11,
+    "status": "PASS",
+    "tokens": 46930
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 12,
+    "status": "PASS",
+    "tokens": 50769
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 13,
+    "status": "PASS",
+    "tokens": 47605
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 14,
+    "status": "PASS",
+    "tokens": 43435
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 15,
+    "status": "PASS",
+    "tokens": 53980
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 16,
+    "status": "PASS",
+    "tokens": 46979
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 17,
+    "status": "PASS",
+    "tokens": 48220
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 18,
+    "status": "PASS",
+    "tokens": 46440
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 19,
+    "status": "PASS",
+    "tokens": 46455
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 20,
+    "status": "PASS",
+    "tokens": 54168
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 21,
+    "status": "PASS",
+    "tokens": 51378
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 22,
+    "status": "PASS",
+    "tokens": 45713
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 23,
+    "status": "PASS",
+    "tokens": 51554
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 24,
+    "status": "PASS",
+    "tokens": 48411
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 25,
+    "status": "PASS",
+    "tokens": 49360
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 26,
+    "status": "PASS",
+    "tokens": 51226
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 27,
+    "status": "PASS",
+    "tokens": 47115
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 28,
+    "status": "PASS",
+    "tokens": 44554
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 29,
+    "status": "PASS",
+    "tokens": 47618
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 30,
+    "status": "PASS",
+    "tokens": 46108
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 31,
+    "status": "PASS",
+    "tokens": 50954
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 32,
+    "status": "PASS",
+    "tokens": 48843
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 33,
+    "status": "PASS",
+    "tokens": 48104
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 34,
+    "status": "PASS",
+    "tokens": 49709
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 35,
+    "status": "PASS",
+    "tokens": 46786
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 36,
+    "status": "PASS",
+    "tokens": 42816
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 37,
+    "status": "PASS",
+    "tokens": 47644
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 38,
+    "status": "PASS",
+    "tokens": 49534
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 39,
+    "status": "PASS",
+    "tokens": 47254
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 40,
+    "status": "PASS",
+    "tokens": 53510
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 41,
+    "status": "PASS",
+    "tokens": 47905
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 42,
+    "status": "PASS",
+    "tokens": 45449
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 43,
+    "status": "PASS",
+    "tokens": 49910
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 44,
+    "status": "PASS",
+    "tokens": 46773
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 45,
+    "status": "PASS",
+    "tokens": 45746
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 46,
+    "status": "PASS",
+    "tokens": 49018
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 47,
+    "status": "PASS",
+    "tokens": 46098
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 48,
+    "status": "PASS",
+    "tokens": 49742
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 49,
+    "status": "PASS",
+    "tokens": 45008
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 50,
+    "status": "PASS",
+    "tokens": 48201
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 51,
+    "status": "PASS",
+    "tokens": 49656
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 52,
+    "status": "PASS",
+    "tokens": 45088
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 53,
+    "status": "PASS",
+    "tokens": 47911
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 54,
+    "status": "PASS",
+    "tokens": 51962
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 55,
+    "status": "PASS",
+    "tokens": 46514
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 56,
+    "status": "PASS",
+    "tokens": 46841
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 57,
+    "status": "FAIL",
+    "tokens": 47524
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 58,
+    "status": "FAIL",
+    "tokens": 47150
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 59,
+    "status": "FAIL",
+    "tokens": 47493
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 60,
+    "status": "FAIL",
+    "tokens": 46187
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 61,
+    "status": "FAIL",
+    "tokens": 43897
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 62,
+    "status": "FAIL",
+    "tokens": 48674
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 63,
+    "status": "FAIL",
+    "tokens": 47082
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 64,
+    "status": "FAIL",
+    "tokens": 47836
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 65,
+    "status": "FAIL",
+    "tokens": 46015
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 66,
+    "status": "FAIL",
+    "tokens": 47510
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 67,
+    "status": "FAIL",
+    "tokens": 44134
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 68,
+    "status": "FAIL",
+    "tokens": 48230
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 69,
+    "status": "FAIL",
+    "tokens": 47721
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 70,
+    "status": "FAIL",
+    "tokens": 52057
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 71,
+    "status": "FAIL",
+    "tokens": 47054
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 72,
+    "status": "FAIL",
+    "tokens": 46794
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 73,
+    "status": "FAIL",
+    "tokens": 51039
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 74,
+    "status": "FAIL",
+    "tokens": 47892
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 75,
+    "status": "FAIL",
+    "tokens": 50644
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 76,
+    "status": "FAIL",
+    "tokens": 47561
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 77,
+    "status": "FAIL",
+    "tokens": 46901
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 78,
+    "status": "FAIL",
+    "tokens": 49976
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 79,
+    "status": "FAIL",
+    "tokens": 51330
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 80,
+    "status": "FAIL",
+    "tokens": 49941
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 81,
+    "status": "FAIL",
+    "tokens": 47858
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 82,
+    "status": "FAIL",
+    "tokens": 45909
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 83,
+    "status": "FAIL",
+    "tokens": 50025
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 84,
+    "status": "FAIL",
+    "tokens": 45643
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 85,
+    "status": "FAIL",
+    "tokens": 47238
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 86,
+    "status": "FAIL",
+    "tokens": 50109
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 87,
+    "status": "FAIL",
+    "tokens": 49127
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 88,
+    "status": "FAIL",
+    "tokens": 46589
+  },
+  {
+    "baseline": "sp_llm_cot",
+    "run_index": 89,
+    "status": "FAIL",
+    "tokens": 50644
+  }
+]

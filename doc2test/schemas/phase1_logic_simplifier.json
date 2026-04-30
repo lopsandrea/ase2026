@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase1.LogicSimplifier",
+  "type": "object",
+  "required": ["tasks"],
+  "properties": {
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "concrete_steps"],
+        "properties": {
+          "id": {"type": "integer"},
+          "title": {"type": "string"},
+          "concrete_steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["action", "target"],
+              "properties": {
+                "action": {"type": "string"},
+                "target": {"type": "string"},
+                "value": {"type": "string"},
+                "handled_by": {"enum": ["setup", "auth", null]},
+                "rationale": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

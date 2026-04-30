@@ -1,0 +1,23 @@
+## UAT document
+
+{{ uat_text }}
+
+## Live DOM (current state)
+
+```html
+{{ live_dom }}
+```
+
+## Previous attempts (history)
+
+{{ history | tojson(indent=2) }}
+
+## Previous code (from last attempt, if any)
+
+```python
+{{ previous_code }}
+```
+
+A screenshot of the current page state is attached as image input.
+
+Emit your next Selenium snippet now between `<code>` and `</code>`.

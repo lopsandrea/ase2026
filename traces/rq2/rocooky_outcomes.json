@@ -1,0 +1,239 @@
+{
+  "subject": "RoCooky",
+  "scenario": "Social Sharing",
+  "industrial": false,
+  "per_operator": {
+    "AM": [
+      8,
+      8
+    ],
+    "ER": [
+      7,
+      7
+    ],
+    "SLI": [
+      8,
+      8
+    ],
+    "EHD": [
+      7,
+      7
+    ]
+  },
+  "totals": [
+    30,
+    30
+  ],
+  "mutants": [
+    {
+      "id": "mutant-rocooky-AM-000",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-AM-001",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-AM-002",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-AM-003",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-AM-004",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-AM-005",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-AM-006",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-AM-007",
+      "operator": "AM",
+      "detected": true,
+      "exception_type": "TimeoutException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-ER-000",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-ER-001",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-ER-002",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-ER-003",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-ER-004",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-ER-005",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-ER-006",
+      "operator": "ER",
+      "detected": true,
+      "exception_type": "NoSuchElementException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-SLI-000",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-SLI-001",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-SLI-002",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-SLI-003",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-SLI-004",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-SLI-005",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-SLI-006",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-SLI-007",
+      "operator": "SLI",
+      "detected": true,
+      "exception_type": "AssertionError (post-condition)",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-EHD-000",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-EHD-001",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-EHD-002",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-EHD-003",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-EHD-004",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-EHD-005",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    },
+    {
+      "id": "mutant-rocooky-EHD-006",
+      "operator": "EHD",
+      "detected": true,
+      "exception_type": "ElementNotInteractableException",
+      "miss_reason": null
+    }
+  ]
+}

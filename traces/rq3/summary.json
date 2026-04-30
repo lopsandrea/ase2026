@@ -1,0 +1,32 @@
+{
+  "doc2test": {
+    "display_name": "\\textsc{Doc2Test}",
+    "generation_sr": 0.944,
+    "robustness": 0.989,
+    "avg_tokens": 15567
+  },
+  "sp_llm_cot": {
+    "display_name": "SP-LLM+CoT",
+    "generation_sr": 0.633,
+    "robustness": 0.127,
+    "avg_tokens": 48200
+  },
+  "sa_react": {
+    "display_name": "SA-ReAct",
+    "generation_sr": 0.511,
+    "robustness": 0.223,
+    "avg_tokens": 92500
+  },
+  "sp_llm": {
+    "display_name": "SP-LLM",
+    "generation_sr": 0.425,
+    "robustness": 0.0,
+    "avg_tokens": 115000
+  },
+  "record_replay": {
+    "display_name": "Record \\& Replay",
+    "generation_sr": null,
+    "robustness": 0.18,
+    "avg_tokens": null
+  }
+}

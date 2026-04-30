@@ -1,0 +1,22 @@
+{
+  "name": "codebites",
+  "version": "1.0.0",
+  "description": "CRUD recipe platform — Doc2Test OSS evaluation subject",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --host",
+    "build": "vite build",
+    "preview": "vite preview --port 3000 --host"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.0",
+    "react-dropzone": "^14.2.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^5.2.0"
+  }
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "baseline": "doc2test",
+    "run_index": 0,
+    "status": "PASS",
+    "tokens": 16641
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 1,
+    "status": "PASS",
+    "tokens": 15867
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 2,
+    "status": "PASS",
+    "tokens": 14269
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 3,
+    "status": "PASS",
+    "tokens": 16822
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 4,
+    "status": "PASS",
+    "tokens": 16488
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 5,
+    "status": "PASS",
+    "tokens": 16113
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 6,
+    "status": "PASS",
+    "tokens": 15522
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 7,
+    "status": "PASS",
+    "tokens": 15298
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 8,
+    "status": "PASS",
+    "tokens": 14997
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 9,
+    "status": "PASS",
+    "tokens": 14780
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 10,
+    "status": "PASS",
+    "tokens": 17267
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 11,
+    "status": "PASS",
+    "tokens": 17350
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 12,
+    "status": "PASS",
+    "tokens": 14255
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 13,
+    "status": "PASS",
+    "tokens": 15525
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 14,
+    "status": "PASS",
+    "tokens": 15418
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 15,
+    "status": "PASS",
+    "tokens": 14603
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 16,
+    "status": "PASS",
+    "tokens": 16203
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 17,
+    "status": "PASS",
+    "tokens": 16090
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 18,
+    "status": "PASS",
+    "tokens": 15459
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 19,
+    "status": "PASS",
+    "tokens": 14588
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 20,
+    "status": "PASS",
+    "tokens": 15318
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 21,
+    "status": "PASS",
+    "tokens": 14884
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 22,
+    "status": "PASS",
+    "tokens": 16291
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 23,
+    "status": "PASS",
+    "tokens": 16114
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 24,
+    "status": "PASS",
+    "tokens": 15572
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 25,
+    "status": "PASS",
+    "tokens": 16747
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 26,
+    "status": "PASS",
+    "tokens": 16161
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 27,
+    "status": "PASS",
+    "tokens": 14656
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 28,
+    "status": "PASS",
+    "tokens": 16289
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 29,
+    "status": "PASS",
+    "tokens": 14925
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 30,
+    "status": "PASS",
+    "tokens": 15908
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 31,
+    "status": "PASS",
+    "tokens": 16639
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 32,
+    "status": "PASS",
+    "tokens": 15933
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 33,
+    "status": "PASS",
+    "tokens": 14861
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 34,
+    "status": "PASS",
+    "tokens": 14339
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 35,
+    "status": "PASS",
+    "tokens": 15762
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 36,
+    "status": "PASS",
+    "tokens": 15316
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 37,
+    "status": "PASS",
+    "tokens": 14699
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 38,
+    "status": "PASS",
+    "tokens": 15471
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 39,
+    "status": "PASS",
+    "tokens": 16199
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 40,
+    "status": "PASS",
+    "tokens": 15249
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 41,
+    "status": "PASS",
+    "tokens": 16026
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 42,
+    "status": "PASS",
+    "tokens": 15035
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 43,
+    "status": "PASS",
+    "tokens": 15458
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 44,
+    "status": "PASS",
+    "tokens": 13949
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 45,
+    "status": "PASS",
+    "tokens": 15323
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 46,
+    "status": "PASS",
+    "tokens": 15663
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 47,
+    "status": "PASS",
+    "tokens": 15610
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 48,
+    "status": "PASS",
+    "tokens": 15500
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 49,
+    "status": "PASS",
+    "tokens": 16236
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 50,
+    "status": "PASS",
+    "tokens": 15830
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 51,
+    "status": "PASS",
+    "tokens": 16899
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 52,
+    "status": "PASS",
+    "tokens": 15290
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 53,
+    "status": "PASS",
+    "tokens": 15771
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 54,
+    "status": "PASS",
+    "tokens": 14455
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 55,
+    "status": "PASS",
+    "tokens": 16323
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 56,
+    "status": "PASS",
+    "tokens": 15659
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 57,
+    "status": "PASS",
+    "tokens": 14440
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 58,
+    "status": "PASS",
+    "tokens": 15101
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 59,
+    "status": "PASS",
+    "tokens": 15229
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 60,
+    "status": "PASS",
+    "tokens": 15800
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 61,
+    "status": "PASS",
+    "tokens": 14698
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 62,
+    "status": "PASS",
+    "tokens": 15010
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 63,
+    "status": "PASS",
+    "tokens": 14896
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 64,
+    "status": "PASS",
+    "tokens": 16250
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 65,
+    "status": "PASS",
+    "tokens": 13375
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 66,
+    "status": "PASS",
+    "tokens": 15032
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 67,
+    "status": "PASS",
+    "tokens": 15161
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 68,
+    "status": "PASS",
+    "tokens": 15413
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 69,
+    "status": "PASS",
+    "tokens": 16173
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 70,
+    "status": "PASS",
+    "tokens": 15341
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 71,
+    "status": "PASS",
+    "tokens": 15238
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 72,
+    "status": "PASS",
+    "tokens": 15538
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 73,
+    "status": "PASS",
+    "tokens": 16217
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 74,
+    "status": "PASS",
+    "tokens": 14803
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 75,
+    "status": "PASS",
+    "tokens": 15663
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 76,
+    "status": "PASS",
+    "tokens": 14822
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 77,
+    "status": "PASS",
+    "tokens": 16082
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 78,
+    "status": "PASS",
+    "tokens": 14552
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 79,
+    "status": "PASS",
+    "tokens": 15464
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 80,
+    "status": "PASS",
+    "tokens": 16912
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 81,
+    "status": "PASS",
+    "tokens": 16554
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 82,
+    "status": "PASS",
+    "tokens": 13945
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 83,
+    "status": "PASS",
+    "tokens": 13205
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 84,
+    "status": "PASS",
+    "tokens": 14927
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 85,
+    "status": "FAIL",
+    "tokens": 15199
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 86,
+    "status": "FAIL",
+    "tokens": 15382
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 87,
+    "status": "FAIL",
+    "tokens": 15603
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 88,
+    "status": "FAIL",
+    "tokens": 14667
+  },
+  {
+    "baseline": "doc2test",
+    "run_index": 89,
+    "status": "FAIL",
+    "tokens": 15165
+  }
+]

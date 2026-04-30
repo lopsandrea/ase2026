@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><title>RoCooky — Virtual Cookbook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+body{font-family:system-ui,sans-serif;margin:0;background:#fafafa}
+header{padding:1rem 1.5rem;border-bottom:1px solid #ddd;display:flex;gap:1rem;align-items:center;background:#fff}
+header h1{margin:0;font-size:1.1rem}
+main{padding:1rem;max-width:960px;margin:0 auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}
+.card{background:#fff;border-radius:6px;padding:1rem;box-shadow:0 1px 3px rgba(0,0,0,0.1);position:relative}
+.card .swatch{height:80px;border-radius:4px;margin-bottom:.5rem}
+.card h2{font-size:1rem;margin:.25rem 0}
+.card .meta{font-size:.8rem;color:#666}
+.fav{position:absolute;top:.5rem;right:.5rem;background:none;border:none;font-size:1.4rem;cursor:pointer}
+.fav.active{color:#e63946}
+#sentinel{padding:2rem;text-align:center;color:#999}
+</style>
+</head>
+<body>
+<header>
+  <h1 data-test-id="brand">RoCooky</h1>
+  <span data-test-id="favourites-count" id="fav-count">0 favourites</span>
+</header>
+<main>
+  <h1 data-test-id="page-title">Cookbook</h1>
+  <div id="grid" class="grid"></div>
+  <div id="sentinel" data-test-id="scroll-sentinel">Loading more…</div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/vue@3.4.21/dist/vue.global.prod.js"></script>
+<script>
+const { createApp, ref, onMounted, computed } = Vue;
+createApp({
+  setup() {
+    const items = ref([]);
+    const offset = ref(0);
+    const total = ref(Infinity);
+    const favourites = ref(new Set());
+    const loading = ref(false);
+
+    async function loadMore() {
+      if (loading.value || items.value.length >= total.value) return;
+      loading.value = true;
+      const r = await fetch(`/api/recipes?offset=${offset.value}&limit=20`);
+      const d = await r.json();
+      items.value.push(...d.items);
+      offset.value += d.items.length;
+      total.value = d.total;
+      loading.value = false;
+      render();
+    }
+
+    function toggleFav(id) {
+      if (favourites.value.has(id)) favourites.value.delete(id);
+      else favourites.value.add(id);
+      render();
+    }
+
+    function render() {
+      const grid = document.getElementById("grid");
+      grid.innerHTML = items.value.map(r => `
+        <article class="card" data-recipe-id="${r.id}">
+          <div class="swatch" style="background:hsl(${r.imageHue},60%,75%)"></div>
+          <h2 data-test-id="recipe-${r.id}-title">${r.title}</h2>
+          <div class="meta"><span data-test-id="recipe-${r.id}-cat">${r.category}</span> · ${r.prepTime} min</div>
+          <button class="fav ${favourites.value.has(r.id) ? "active" : ""}" data-test-id="fav-${r.id}" onclick="window.__toggleFav(${r.id})" aria-label="favourite">${favourites.value.has(r.id) ? "♥" : "♡"}</button>
+        </article>
+      `).join("");
+      document.getElementById("fav-count").textContent = favourites.value.size + " favourites";
+    }
+    window.__toggleFav = toggleFav;
+
+    onMounted(() => {
+      const obs = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) loadMore();
+      }, { rootMargin: "200px" });
+      obs.observe(document.getElementById("sentinel"));
+      loadMore();
+    });
+  },
+}).mount("body");
+</script>
+</body>
+</html>

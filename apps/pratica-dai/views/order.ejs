@@ -1,0 +1,11 @@
+<%
+let body = `<h1 data-test-id="order-title">Order ${id}</h1>
+<p data-test-id="order-status">Status: <strong>${order.status}</strong></p>
+<p>Shipping to ${order.shipping.name}, ${order.shipping.address}, ${order.shipping.city}, ${order.shipping.zip}, ${order.shipping.country}</p>
+<table><thead><tr><th>Product</th><th>Qty</th></tr></thead><tbody>`;
+order.items.forEach(i => {
+  const p = products.find(x => x.id === i.productId);
+  body += `<tr><td>${p ? p.name : i.productId}</td><td>${i.quantity}</td></tr>`;
+});
+body += `</tbody></table>`;
+%><%- include("_layout", { body, user: locals.user, title: "Order " + id }) %>

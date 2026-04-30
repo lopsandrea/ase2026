@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase1.Reorderer",
+  "type": "object",
+  "required": ["tasks"],
+  "properties": {
+    "tasks": {
+      "type": "array",
+      "items": {"$ref": "phase1_syntax_adapter.json#/properties/tasks/items"}
+    },
+    "rationale": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["task_id", "from_index", "to_index", "reason"],
+        "properties": {
+          "task_id": {"type": "integer"},
+          "from_index": {"type": "integer"},
+          "to_index": {"type": "integer"},
+          "reason": {"type": "string"}
+        }
+      }
+    }
+  }
+}

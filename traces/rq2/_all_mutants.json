@@ -1,0 +1,1082 @@
+[
+  {
+    "subject": "industrial_sc2",
+    "operator": "AM",
+    "id": "mutant-industrial_sc2-AM-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc2",
+    "operator": "AM",
+    "id": "mutant-industrial_sc2-AM-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc2",
+    "operator": "AM",
+    "id": "mutant-industrial_sc2-AM-002",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc2",
+    "operator": "ER",
+    "id": "mutant-industrial_sc2-ER-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc2",
+    "operator": "ER",
+    "id": "mutant-industrial_sc2-ER-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc2",
+    "operator": "ER",
+    "id": "mutant-industrial_sc2-ER-002",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc2",
+    "operator": "SLI",
+    "id": "mutant-industrial_sc2-SLI-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc2",
+    "operator": "SLI",
+    "id": "mutant-industrial_sc2-SLI-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc2",
+    "operator": "EHD",
+    "id": "mutant-industrial_sc2-EHD-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc2",
+    "operator": "EHD",
+    "id": "mutant-industrial_sc2-EHD-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "AM",
+    "id": "mutant-industrial_sc3-AM-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "AM",
+    "id": "mutant-industrial_sc3-AM-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "ER",
+    "id": "mutant-industrial_sc3-ER-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "ER",
+    "id": "mutant-industrial_sc3-ER-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "ER",
+    "id": "mutant-industrial_sc3-ER-002",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "SLI",
+    "id": "mutant-industrial_sc3-SLI-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "SLI",
+    "id": "mutant-industrial_sc3-SLI-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "SLI",
+    "id": "mutant-industrial_sc3-SLI-002",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "EHD",
+    "id": "mutant-industrial_sc3-EHD-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc3",
+    "operator": "EHD",
+    "id": "mutant-industrial_sc3-EHD-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "AM",
+    "id": "mutant-industrial_sc4-AM-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "AM",
+    "id": "mutant-industrial_sc4-AM-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "AM",
+    "id": "mutant-industrial_sc4-AM-002",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "ER",
+    "id": "mutant-industrial_sc4-ER-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "ER",
+    "id": "mutant-industrial_sc4-ER-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "SLI",
+    "id": "mutant-industrial_sc4-SLI-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "SLI",
+    "id": "mutant-industrial_sc4-SLI-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "EHD",
+    "id": "mutant-industrial_sc4-EHD-000",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "EHD",
+    "id": "mutant-industrial_sc4-EHD-001",
+    "redacted": true
+  },
+  {
+    "subject": "industrial_sc4",
+    "operator": "EHD",
+    "id": "mutant-industrial_sc4-EHD-002",
+    "redacted": true
+  },
+  {
+    "subject": "codebites",
+    "operator": "AM",
+    "id": "mutant-codebites-AM-000",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "AM",
+    "id": "mutant-codebites-AM-001",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "AM",
+    "id": "mutant-codebites-AM-002",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "AM",
+    "id": "mutant-codebites-AM-003",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "AM",
+    "id": "mutant-codebites-AM-004",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "AM",
+    "id": "mutant-codebites-AM-005",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "AM",
+    "id": "mutant-codebites-AM-006",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "AM",
+    "id": "mutant-codebites-AM-007",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "ER",
+    "id": "mutant-codebites-ER-000",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "ER",
+    "id": "mutant-codebites-ER-001",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "ER",
+    "id": "mutant-codebites-ER-002",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "ER",
+    "id": "mutant-codebites-ER-003",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "ER",
+    "id": "mutant-codebites-ER-004",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "ER",
+    "id": "mutant-codebites-ER-005",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "ER",
+    "id": "mutant-codebites-ER-006",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "ER",
+    "id": "mutant-codebites-ER-007",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "SLI",
+    "id": "mutant-codebites-SLI-000",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "SLI",
+    "id": "mutant-codebites-SLI-001",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "SLI",
+    "id": "mutant-codebites-SLI-002",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "SLI",
+    "id": "mutant-codebites-SLI-003",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "SLI",
+    "id": "mutant-codebites-SLI-004",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "SLI",
+    "id": "mutant-codebites-SLI-005",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "SLI",
+    "id": "mutant-codebites-SLI-006",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "EHD",
+    "id": "mutant-codebites-EHD-000",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "EHD",
+    "id": "mutant-codebites-EHD-001",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "EHD",
+    "id": "mutant-codebites-EHD-002",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "EHD",
+    "id": "mutant-codebites-EHD-003",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "EHD",
+    "id": "mutant-codebites-EHD-004",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "EHD",
+    "id": "mutant-codebites-EHD-005",
+    "redacted": false
+  },
+  {
+    "subject": "codebites",
+    "operator": "EHD",
+    "id": "mutant-codebites-EHD-006",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "AM",
+    "id": "mutant-pratica_dai-AM-000",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "AM",
+    "id": "mutant-pratica_dai-AM-001",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "AM",
+    "id": "mutant-pratica_dai-AM-002",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "AM",
+    "id": "mutant-pratica_dai-AM-003",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "AM",
+    "id": "mutant-pratica_dai-AM-004",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "AM",
+    "id": "mutant-pratica_dai-AM-005",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "AM",
+    "id": "mutant-pratica_dai-AM-006",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "ER",
+    "id": "mutant-pratica_dai-ER-000",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "ER",
+    "id": "mutant-pratica_dai-ER-001",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "ER",
+    "id": "mutant-pratica_dai-ER-002",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "ER",
+    "id": "mutant-pratica_dai-ER-003",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "ER",
+    "id": "mutant-pratica_dai-ER-004",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "ER",
+    "id": "mutant-pratica_dai-ER-005",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "ER",
+    "id": "mutant-pratica_dai-ER-006",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "ER",
+    "id": "mutant-pratica_dai-ER-007",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "SLI",
+    "id": "mutant-pratica_dai-SLI-000",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "SLI",
+    "id": "mutant-pratica_dai-SLI-001",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "SLI",
+    "id": "mutant-pratica_dai-SLI-002",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "SLI",
+    "id": "mutant-pratica_dai-SLI-003",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "SLI",
+    "id": "mutant-pratica_dai-SLI-004",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "SLI",
+    "id": "mutant-pratica_dai-SLI-005",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "SLI",
+    "id": "mutant-pratica_dai-SLI-006",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "SLI",
+    "id": "mutant-pratica_dai-SLI-007",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "EHD",
+    "id": "mutant-pratica_dai-EHD-000",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "EHD",
+    "id": "mutant-pratica_dai-EHD-001",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "EHD",
+    "id": "mutant-pratica_dai-EHD-002",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "EHD",
+    "id": "mutant-pratica_dai-EHD-003",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "EHD",
+    "id": "mutant-pratica_dai-EHD-004",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "EHD",
+    "id": "mutant-pratica_dai-EHD-005",
+    "redacted": false
+  },
+  {
+    "subject": "pratica_dai",
+    "operator": "EHD",
+    "id": "mutant-pratica_dai-EHD-006",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "AM",
+    "id": "mutant-rocooky-AM-000",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "AM",
+    "id": "mutant-rocooky-AM-001",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "AM",
+    "id": "mutant-rocooky-AM-002",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "AM",
+    "id": "mutant-rocooky-AM-003",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "AM",
+    "id": "mutant-rocooky-AM-004",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "AM",
+    "id": "mutant-rocooky-AM-005",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "AM",
+    "id": "mutant-rocooky-AM-006",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "AM",
+    "id": "mutant-rocooky-AM-007",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "ER",
+    "id": "mutant-rocooky-ER-000",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "ER",
+    "id": "mutant-rocooky-ER-001",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "ER",
+    "id": "mutant-rocooky-ER-002",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "ER",
+    "id": "mutant-rocooky-ER-003",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "ER",
+    "id": "mutant-rocooky-ER-004",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "ER",
+    "id": "mutant-rocooky-ER-005",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "ER",
+    "id": "mutant-rocooky-ER-006",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "SLI",
+    "id": "mutant-rocooky-SLI-000",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "SLI",
+    "id": "mutant-rocooky-SLI-001",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "SLI",
+    "id": "mutant-rocooky-SLI-002",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "SLI",
+    "id": "mutant-rocooky-SLI-003",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "SLI",
+    "id": "mutant-rocooky-SLI-004",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "SLI",
+    "id": "mutant-rocooky-SLI-005",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "SLI",
+    "id": "mutant-rocooky-SLI-006",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "SLI",
+    "id": "mutant-rocooky-SLI-007",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "EHD",
+    "id": "mutant-rocooky-EHD-000",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "EHD",
+    "id": "mutant-rocooky-EHD-001",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "EHD",
+    "id": "mutant-rocooky-EHD-002",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "EHD",
+    "id": "mutant-rocooky-EHD-003",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "EHD",
+    "id": "mutant-rocooky-EHD-004",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "EHD",
+    "id": "mutant-rocooky-EHD-005",
+    "redacted": false
+  },
+  {
+    "subject": "rocooky",
+    "operator": "EHD",
+    "id": "mutant-rocooky-EHD-006",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "AM",
+    "id": "mutant-taboo-AM-000",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "AM",
+    "id": "mutant-taboo-AM-001",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "AM",
+    "id": "mutant-taboo-AM-002",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "AM",
+    "id": "mutant-taboo-AM-003",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "AM",
+    "id": "mutant-taboo-AM-004",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "AM",
+    "id": "mutant-taboo-AM-005",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "AM",
+    "id": "mutant-taboo-AM-006",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "ER",
+    "id": "mutant-taboo-ER-000",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "ER",
+    "id": "mutant-taboo-ER-001",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "ER",
+    "id": "mutant-taboo-ER-002",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "ER",
+    "id": "mutant-taboo-ER-003",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "ER",
+    "id": "mutant-taboo-ER-004",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "ER",
+    "id": "mutant-taboo-ER-005",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "ER",
+    "id": "mutant-taboo-ER-006",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "ER",
+    "id": "mutant-taboo-ER-007",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "SLI",
+    "id": "mutant-taboo-SLI-000",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "SLI",
+    "id": "mutant-taboo-SLI-001",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "SLI",
+    "id": "mutant-taboo-SLI-002",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "SLI",
+    "id": "mutant-taboo-SLI-003",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "SLI",
+    "id": "mutant-taboo-SLI-004",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "SLI",
+    "id": "mutant-taboo-SLI-005",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "SLI",
+    "id": "mutant-taboo-SLI-006",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "EHD",
+    "id": "mutant-taboo-EHD-000",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "EHD",
+    "id": "mutant-taboo-EHD-001",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "EHD",
+    "id": "mutant-taboo-EHD-002",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "EHD",
+    "id": "mutant-taboo-EHD-003",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "EHD",
+    "id": "mutant-taboo-EHD-004",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "EHD",
+    "id": "mutant-taboo-EHD-005",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "EHD",
+    "id": "mutant-taboo-EHD-006",
+    "redacted": false
+  },
+  {
+    "subject": "taboo",
+    "operator": "EHD",
+    "id": "mutant-taboo-EHD-007",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "AM",
+    "id": "mutant-realworld-AM-000",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "AM",
+    "id": "mutant-realworld-AM-001",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "AM",
+    "id": "mutant-realworld-AM-002",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "AM",
+    "id": "mutant-realworld-AM-003",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "AM",
+    "id": "mutant-realworld-AM-004",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "AM",
+    "id": "mutant-realworld-AM-005",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "AM",
+    "id": "mutant-realworld-AM-006",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "AM",
+    "id": "mutant-realworld-AM-007",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "ER",
+    "id": "mutant-realworld-ER-000",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "ER",
+    "id": "mutant-realworld-ER-001",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "ER",
+    "id": "mutant-realworld-ER-002",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "ER",
+    "id": "mutant-realworld-ER-003",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "ER",
+    "id": "mutant-realworld-ER-004",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "ER",
+    "id": "mutant-realworld-ER-005",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "ER",
+    "id": "mutant-realworld-ER-006",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "SLI",
+    "id": "mutant-realworld-SLI-000",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "SLI",
+    "id": "mutant-realworld-SLI-001",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "SLI",
+    "id": "mutant-realworld-SLI-002",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "SLI",
+    "id": "mutant-realworld-SLI-003",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "SLI",
+    "id": "mutant-realworld-SLI-004",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "SLI",
+    "id": "mutant-realworld-SLI-005",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "SLI",
+    "id": "mutant-realworld-SLI-006",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "EHD",
+    "id": "mutant-realworld-EHD-000",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "EHD",
+    "id": "mutant-realworld-EHD-001",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "EHD",
+    "id": "mutant-realworld-EHD-002",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "EHD",
+    "id": "mutant-realworld-EHD-003",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "EHD",
+    "id": "mutant-realworld-EHD-004",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "EHD",
+    "id": "mutant-realworld-EHD-005",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "EHD",
+    "id": "mutant-realworld-EHD-006",
+    "redacted": false
+  },
+  {
+    "subject": "realworld",
+    "operator": "EHD",
+    "id": "mutant-realworld-EHD-007",
+    "redacted": false
+  }
+]

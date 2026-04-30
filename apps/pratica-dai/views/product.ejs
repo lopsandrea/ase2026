@@ -1,0 +1,11 @@
+<% const body = `
+<h1 data-test-id="product-title">${product.name}</h1>
+<p class="price" data-test-id="product-price">$${product.price.toFixed(2)}</p>
+<p>Stock: <span data-test-id="product-stock">${product.stock}</span></p>
+<form id="add-to-cart-form" onsubmit="event.preventDefault();fetch('/cart/add',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({productId:'${product.id}',quantity:document.getElementById('qty').value})}).then(r=>r.json()).then(d=>{document.getElementById('cart-feedback').textContent='Added! Cart size: '+d.cartSize});">
+  <input id="qty" name="quantity" type="number" min="1" value="1" />
+  <button type="submit" id="add-to-cart">Add to cart</button>
+</form>
+<p id="cart-feedback" data-test-id="cart-feedback"></p>
+<a href="/cart" id="goto-cart">Go to cart</a>
+`; %><%- include("_layout", { body, user: locals.user, title: product.name }) %>
