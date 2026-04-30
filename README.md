@@ -5,7 +5,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](pyproject.toml)
-[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19929362-blue.svg)](https://doi.org/10.5281/zenodo.19929362)
 
 Doc2Test translates unstructured UAT documents (PDF / DOCX / PPTX) into executable Selenium suites through a 3-phase Multi-Agent System: 11 LLM-driven agents + 4 deterministic infrastructure modules, coordinated by a stateful orchestrator with a bounded self-healing loop.
 
@@ -22,7 +22,6 @@ Doc2Test translates unstructured UAT documents (PDF / DOCX / PPTX) into executab
 | `mutation_tool/` | AST-based mutation generator (4 operators: ER, AM, SLI, EHD) |
 | `evaluation/` | Reproduction harness for Tables 1–5 (RQ1, RQ2, RQ3, Ablation, Cost) |
 | `traces/` | Raw execution logs (90 RQ1 runs, 180 mutation outcomes, baselines, ablation) |
-| `deployment/` | Jenkinsfile + Docker + monitoring hooks (paper §5) |
 | `docs/` | ARCHITECTURE / REPLICATION / PROMPTS / COSTS / LIMITATIONS |
 
 ## Quickstart
@@ -75,17 +74,10 @@ The remaining 50 runs (RQ1) and 150 mutants (RQ2) on the OSS subjects are fully 
 @inproceedings{lops2026doc2test,
   title     = {Doc2Test: An Industrial Multi-Agent Framework for Document-Driven End-to-End Selenium Test Generation},
   author    = {Lops, Andrea and Ferrara, Antonio and Narducci, Fedelucio and Ragone, Azzurra and Trizio, Michelantonio},
-  booktitle = {The 41st IEEE/ACM International Conference on Automated Software Engineering -- Industry Showcase (ASE '26)},
-  year      = {2026},
-  doi       = {XXXXXXX.XXXXXXX}
-}
+  year      = {2026},}
 ```
 
 ## License
 
 - Framework, baselines, mutation tool, evaluation harness: **Apache-2.0** (see [LICENSE](LICENSE)).
 - OSS subject applications: see individual `apps/*/LICENSE` (CodeBites & RoCooky: MIT; PRATICA-DAI & Taboo: Apache-2.0; RealWorld: per upstream community license).
-
-## Acknowledgments
-
-This work was carried out within Wideverse's R&D programme. We thank the QA team of our industrial partner for the UAT corpus and the deployment feedback that shaped the L1–L6 lessons reported in §5.
